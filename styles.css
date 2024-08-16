@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    font-family: "Inter", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+header{
+    width: 100%;
+    height: 5%;
+    margin: auto;
+    padding: 0;
+    
+}
+.estilo_header{
+    width: 90%;
+    height: 80%;
+    margin: 10px 0px 10px 40px;
+    display: flex;
+    color: aliceblue;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 1rem;
+    gap: 10px;
+}
+
+.imagen_logo{
+    width: 10%;
+    height: 70%;
+    margin-left: 30px;
+}
+
+.container{
+    width: 80%;
+    height: 92%;
+    margin: auto;
+    /*background-color: aquamarine;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        
+}
+
+.seccion_primera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    /*background-color: brown;*/
+}
+
+.texto_ingresado{
+    width: 90%;
+    height: 60%;
+    font-size: 1rem;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+
+.texto_ingresado:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 1rem;
+}
+
+.informacion{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    /*background-color: yellow;*/
+    
+}
+
+.informacion img{
+    width:10%;
+    height: 30%;
+}
+
+.informacion p{
+    width:100%;
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 600;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    gap: 20PX;
+    /*background-color: aqua;*/
+    
+}
+
+.botones_especificos{
+    width: 50%;
+    height: 60%;
+    background-color: aquamarine;
+    font-size: 1rem;
+    border: 1.5px solid blue;
+    border-radius: 8px;
+    color: blue;
+    padding: 10px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: 400;
+}
+
+.botones_especificos:hover{
+    background-color: goldenrod;
+    font-weight: 500;
+}
+
+
+.seccion_segunda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    /*background-color: yellow;*/
+    position: relative;
+}
+
+.mensaje{
+    width: 90%;
+    height: 80%;
+    font-size: 1rem;
+    color: blue;
+    border: none;
+    background-image: url(imagenes/Muneco.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 70%;
+    border-radius: 10px;
+    
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.instrucciones_mensaje{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 20%;
+    /*background-color: orange;*/
+    text-align: center;
+    padding:0;
+    position: absolute;
+    margin-top: 70%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.instrucciones_mensaje h2{
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 0;
+}
+
+.instrucciones_mensaje h3{
+    font-size: 0.65rem;
+    padding: 0;
+}
+
+.copiar{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    /*background-color: white;*/
+}
+
+#btn_copiar{
+    text-align: center;
+    padding: 0;
+    font-weight: 600;
+}
+
+footer{
+    width: 100%;
+    height: 3%;
+    background-color: aquamarine;
+    
+}
+.pie_depagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+
+}
+
+.pie_depagina .creador, .version{
+    font-size: 0.5rem;
+    font-weight: 800;
+} 
+
+
+@media only screen and (max-width:1300px){
+    
+    .imagen_logo{
+        width: 5%;
+        height: 60%;
+        margin-left: 230px;
+    }
+
+    header{
+        height: 10%;
+                
+    }
+    .estilo_header{
+        font-size: 2.5rem;
+        
+    }
+
+    .container{
+        height: 85%;
+    }
+
+    ::placeholder{
+        font-size: 2.5rem;
+    }
+
+    .informacion{
+        gap: 20px;
+        /*background-color: yellow;*/
+        margin-left:60px;
+        
+    }
+    
+    .informacion img{
+        width:5%;
+        height: 40%;
+    }
+    
+    .informacion p{
+        font-size: 2rem;
+    }
+
+    .botones_especificos{
+        width: 45%;
+        height: 65%;
+        font-size: 2rem;
+        border: 2px solid blue;
+        border-radius: 15px;
+        color: blue;
+        padding: 10px 5px;
+        font-weight: 500;
+    }
+
+    footer{
+        width: 100%;
+        height: 5%;
+        background-color: aquamarine;
+        
+    }
+    .pie_depagina{
+        padding: 20px;
+    
+    }
+    
+    .pie_depagina .creador, .version{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .instrucciones_mensaje{
+        width: 100%;
+        height: 25%;
+        margin-top: 25%;
+    }
+
+    .instrucciones_mensaje h2{
+        width: 100%;
+        font-size: 2.5rem;
+        padding: 0;
+    }
+    
+    .instrucciones_mensaje h3{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .mensaje{
+        background-size: 50%;
+    }
+
+    .texto_ingresado{
+        font-size: 3rem;
+    }
+
+    .mensaje{
+        font-size: 3rem;
+    }
+
+}
