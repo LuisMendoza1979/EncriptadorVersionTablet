@@ -229,7 +229,7 @@ footer{
 } 
 
 
-@media only screen and (max-width:768px){
+/*@media only screen and (max-width:768px){
     
     .imagen_logo{
         width: 5%;
@@ -256,7 +256,7 @@ footer{
 
     .informacion{
         gap: 20px;
-        /*background-color: yellow;*/
+        /*background-color: yellow;
         margin-left:60px;
         
     }
@@ -326,4 +326,4 @@ footer{
         font-size: 3rem;
     }
 
-}
+}*/
