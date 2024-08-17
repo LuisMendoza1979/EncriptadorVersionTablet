@@ -229,7 +229,7 @@ footer{
 } 
 
 
-/*@media only screen and (max-width:768px){
+@media only screen and(min-width:768px) and (max-width:1280px){
     
     .imagen_logo{
         width: 5%;
@@ -326,4 +326,4 @@ footer{
         font-size: 3rem;
     }
 
-}*/
+}
